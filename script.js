@@ -14,7 +14,7 @@ document.getElementById("uploadForm").addEventListener("submit", async (event) =
     downloadLink.style.display = "none";
 
     try {
-        let response = await fetch("https://yourusername.pythonanywhere.com/upload", {
+        let response = await fetch("https://tusharsonkar7.pythonanywhere.com/upload", {
             method: "POST",
             body: formData
         });
