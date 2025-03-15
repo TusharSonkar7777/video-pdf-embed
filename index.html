@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Video in PDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Embed Video in PDF</h2>
+        <form id="uploadForm">
+            <input type="file" id="pdf" accept=".pdf" required>
+            <input type="file" id="video" accept="video/mp4" required>
+            <button type="submit">Embed Video</button>
+        </form>
+        <p id="progress">Processing... Please wait.</p>
+        <p id="error"></p>
+        <a id="downloadLink">Download Modified PDF</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
